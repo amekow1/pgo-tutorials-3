@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Goal {
     int rok,miesiac,dzien,bonus;
     String nazwa;

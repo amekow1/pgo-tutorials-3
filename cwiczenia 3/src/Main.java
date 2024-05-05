@@ -15,7 +15,7 @@ public class Main {
         Manager manager = new Manager("Bob", "Johnson",
                 "Chicago", "bob@johnson.com", "1122334455", 2019);
         Goal g=new Goal(2010, 10, 15, "Implementing FB login", 1000);
-        manager.addGoals(g);
+        manager.addGoal(g);
         employees.add(manager);
 // Calculating total amount to be paid
         int totalAmount = 0;
